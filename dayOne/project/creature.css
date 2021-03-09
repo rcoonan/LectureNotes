@@ -1,0 +1,256 @@
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+body{
+    background-color:rgb(32, 179, 179);
+}
+
+.mikePosition{
+    margin: 5px;
+    height: 600px;
+    background-color: rgb(13, 114, 177);
+
+}
+
+.mikeBody{
+    background-color:green;
+    height: 20em;
+    width: 15em;
+    
+
+    position: relative;
+
+    margin: auto;
+    border-radius: 50%;
+}
+
+.leftHorn{
+    width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 20px solid lightgrey;
+    transform: rotate(310deg);
+    position: relative;
+    top: -300px;
+    left: 645px;
+}
+
+.rightHorn{
+    width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 20px solid lightgrey;
+    transform: rotate(50deg);
+    position: relative;
+    top: -325px;
+    left: 808px;
+}
+
+.eyeball{
+    width: 175px;
+    height: 175px;
+    border: solid 1px black;
+    border-radius: 100px;
+    z-index: 1;
+    position: absolute;
+    left: 670px;
+    top: 160px;
+    background-color: white;
+}
+
+.mouth{
+    width: 120px;
+    height: 75px;
+    border: solid 1px black;
+    border-radius: 100px / 75px;
+    margin: 10px;
+    position: relative;
+    top: -150px;
+    left: 675px;
+    background-color: black;
+}
+
+
+#innerEye{
+    width: 125px;
+    height: 125px;
+    border: solid 1px black;
+    border-radius: 100px;
+    z-index: 1;
+    position: absolute;
+    left: 695px;
+    top: 185px;
+    background-color:teal; 
+}
+
+#centerEye{
+    width: 50px;
+    height: 50px;
+    border: solid 1px black;
+    border-radius: 100px;
+    z-index: 1;
+    position: absolute;
+    left: 735px;
+    top: 225px;
+    background-color:black;
+}
+
+#toothOne{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+    position: relative;
+    transform: rotate(25deg);
+    top: 60px;
+    left: 15px;
+}
+
+#toothTwo{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+    position: relative;
+    transform: rotate(5deg);
+    top: 55px;
+    left: 35px;
+}
+
+#toothThree{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+    position: relative;
+    transform: rotate(0deg);
+    top: 47px;
+    left: 60px;
+}
+
+#toothFour{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+    position: relative;
+    transform: rotate(340deg);
+    top: 32px;
+    left: 80px;
+}
+
+.leftArm{
+    background-color: green;
+
+    height: 15em;
+    width: 2em;
+
+    position: absolute;
+    top: 0;
+    left: 12em;
+    bottom: -10em;
+    right: 25em;
+
+    margin: auto;
+
+}
+
+.leftHand{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    z-index: 1;
+    position: absolute;
+    left: 625px;
+    top: 530px;
+    background-color: green;
+}
+
+.leftLeg{
+    background-color: green;
+
+    height: 12em;
+    width: 2em;
+
+    position: absolute;
+    top: 22em;
+    left: 12em;
+    bottom: 1em;
+    right: 15em;
+
+    margin: auto;
+}
+
+.rightLeg{
+    background-color: green;
+
+    height: 12em;
+    width: 2em;
+
+    position: absolute;
+    top: 22em;
+    left: 19em;
+    bottom: 1em;
+    right: 15em;
+
+    margin: auto;
+}
+
+.rightArm{
+    background-color: green;
+
+    height: 15em;
+    width: 2em;
+
+    position: absolute;
+    top: 0;
+    left: 12em;
+    bottom: -10em;
+    right: 0em;
+
+    margin: auto;
+}
+
+.rightHand{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    z-index: 1;
+    position: absolute;
+    left: 830px;
+    top: 530px;
+    background-color: green;
+}
+
+.leftFoot{
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+    z-index: 1;
+    position: absolute;
+    left: 685px;
+    top: 610px;
+    background-color: green;
+}
+
+.rightFoot{
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+    z-index: 1;
+    position: absolute;
+    left: 765px;
+    top: 610px;
+    background-color: green;
+}
