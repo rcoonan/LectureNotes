@@ -45,7 +45,7 @@ console.log(metal);
 // - Undefined is like the materials we will use to create the bucket 
 
 // We can also think of these two variables as pizza boxes
-// -Null is like the empty pizza box, just witing for a pizza
+// -Null is like the empty pizza box, just waiting for a pizza
 //- Undefined is like the unassembled box
 
 let emptyBox = null;
@@ -168,5 +168,9 @@ let zipcode = "12345"
 
 console.log(firstName, lastName, houseNumber, street, city, state, zipcode)
 //concatenation
+console.log(`${houseNumber} ${street} ${city} ${state} ${zipcode}`);
+//string interpolation
+
+
 
 

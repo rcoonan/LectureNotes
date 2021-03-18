@@ -21,3 +21,5 @@ console.log(home.includes("Fort Wayne"));
 // Challenge: Use google, find MDN documentation for Strings, research and use the split method to get an array back from this string
 
 let sent = 'This sentence will be split into individual parts';
+let splitString = sent.split(" ");
+console.log(splitString);

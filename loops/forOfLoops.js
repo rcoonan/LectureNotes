@@ -23,3 +23,9 @@ for (stud of student){
 
 //for of loops are best used on arrays
 //for in loops are best used on objects
+
+blah = function () {
+    return lala;
+    lala = "hi";
+  };
+  console.log(blah());

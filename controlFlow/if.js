@@ -22,8 +22,10 @@ if(isOn){
     console.log("The light is off");
 }
 
-let weather = 5;
+let weather = 75;
 
 if(weather < 70){
     console.log("Wear a jacket!");
+}else{
+    console.log("No jacket necessary");
 }
