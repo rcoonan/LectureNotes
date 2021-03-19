@@ -77,4 +77,4 @@ let spaceJam = {
 }
 
 console.log(Object.keys(spaceJam.toonSquad));
-console.log(Object.values(spaceJam.toonSquad));
+console.log(Object.values(spaceJam.monstars));

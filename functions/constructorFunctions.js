@@ -50,7 +50,7 @@ function Artist(name, albums, allMembersAlive){
 let artist = new Artist("Eminem", 20, true)
 console.log(artist)
 
-function Car(make, model, miles, hasBeenCrashed){
+function car(make, model, miles, hasBeenCrashed){
     this.make = make;
     this.model = model;
     this.miles = miles;

@@ -15,7 +15,8 @@ let student = {
     awesome: true,
     degree: "Javascript",
     week: 1
-}
+};
+
 
 for (stud of student){
     console.log(stud);
